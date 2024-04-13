@@ -254,6 +254,8 @@ nmap --script=vuln
 
 nmap -p- -sCV --open 10.10.10.13
 
+nmap -p- -T4 10.10.10.13 -oN all_tcp_ports -Pn
+
 💫💫💫 PROXYCHAINS 💫💫💫
 
 /etc/proxychains4.conf
